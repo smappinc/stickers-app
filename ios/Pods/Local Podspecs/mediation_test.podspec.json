@@ -1,0 +1,29 @@
+{
+  "name": "mediation_test",
+  "version": "0.0.1",
+  "summary": "Admob Mediation Test Suite",
+  "description": "Present Admob Mediation Test Suite",
+  "homepage": "http://minhnhan.in",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Long Phan": "long@minhnhan.in"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "GoogleMobileAdsMediationTestSuite": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true
+}

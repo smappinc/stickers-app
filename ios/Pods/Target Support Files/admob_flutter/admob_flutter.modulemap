@@ -1,0 +1,6 @@
+framework module admob_flutter {
+  umbrella header "admob_flutter-umbrella.h"
+
+  export *
+  module * { export * }
+}

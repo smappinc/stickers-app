@@ -1,0 +1,34 @@
+{
+  "name": "firebase_admob",
+  "version": "0.11.0-1",
+  "summary": "Flutter plugin for Firebase AdMob, supporting banner, interstitial (full-screen), and rewarded video ads",
+  "description": "Flutter plugin for Firebase AdMob, supporting banner, interstitial (full-screen), and rewarded video ads",
+  "homepage": "https://github.com/FirebaseExtended/flutterfire/tree/master/packages/firebase_admob",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": "The Chromium Authors",
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "firebase_core": [
+
+    ],
+    "Google-Mobile-Ads-SDK": [
+
+    ]
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  }
+}
